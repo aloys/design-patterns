@@ -23,7 +23,7 @@ as listed in the book Design Patterns: _"Elements of Reusable Object-Oriented So
 
 |Pattern |Scope |Description                                                                 |
 |--------|-----------------|-----------------------------------------------------------------------------|
-|**Abstract Factory** | Object |Provide an interface for creating families of related or dependent objects without specifying their concrete classes|
+|[**Abstract Factory**](https://github.com/aloys/design-patterns/tree/master/src/io/lab/design/patterns/creation/abstractfactory) | Object |Provide an interface for creating families of related or dependent objects without specifying their concrete classes|
 |**Builder**          | Object |Separate the construction of a complex object from its representation, allowing the same construction process to create various representations|
 |**Factory method**   | Object |Define an interface for creating a single object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses |
 |**Prototype**        | Object |Specify the kinds of objects to create using a prototypical instance, and create new objects from the 'skeleton' of an existing object, thus boosting performance and keeping memory footprints to a minimum |
