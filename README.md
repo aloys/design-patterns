@@ -55,8 +55,8 @@ as listed in the book Design Patterns: _"Elements of Reusable Object-Oriented So
 
 
 ## References
-[1. Wikipedi](https://en.wikipedia.org/wiki/Software_design_pattern)
-[2. Vincehuston](http://www.vincehuston.org/dp/)
-[3. Sourcemaking](https://sourcemaking.com/design_patterns)
-[4. DZone Refcard](https://dzone.com/refcardz/design-patterns?chapter=1)
+- [1. Wikipedi](https://en.wikipedia.org/wiki/Software_design_pattern)
+- [2. Vincehuston](http://www.vincehuston.org/dp/)
+- [3. Sourcemaking](https://sourcemaking.com/design_patterns)
+- [4. DZone Refcard](https://dzone.com/refcardz/design-patterns?chapter=1)
 

@@ -1,0 +1,37 @@
+@startuml
+
+interface Factory <<interface>>{
+ + createProductA()
+ + createProductB()
+}
+
+class Factory1{
+ + createProductA()
+ + createProductB()
+}
+
+class Factory2{
+ + createProductA()
+ + createProductB()
+}
+
+
+Factory <|.. Factory1
+Factory <|.. Factory2
+
+interface ProductA <<interface>>
+interface ProductB <<interface>>
+
+ProductA <|.. ProductA1
+ProductA <|.. ProductA2
+
+ProductB <|.. ProductB1
+ProductB <|.. ProductB2
+
+Client ..> Factory : <<import>>
+Client ..> ProductA : <<import>>
+Client ..> ProductB : <<import>>
+
+
+
+@enduml
