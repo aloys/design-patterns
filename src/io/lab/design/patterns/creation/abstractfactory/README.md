@@ -1,8 +1,11 @@
+## Structure
+
 Client class has no references to factory and product implementations.
 It has direct reference to  platform **Factory** interface and product families **ProductA** and **ProductB** interfaces.
 To fully decouple client from implementations **FactoryLocator** class is introduced, based on the context
 it choose particular factory to show.
 
+![UML Diagram](https://github.com/aloys/design-patterns/blob/master/src/io/lab/design/patterns/creation/abstractfactory/AbstractFactory-ClassDiagram.png)
 
 ## Context
 
